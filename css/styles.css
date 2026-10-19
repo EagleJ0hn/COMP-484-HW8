@@ -1,0 +1,135 @@
+/* Color Palette
+# -  white #f7f7f7 
+# -  black #1f1f1f 
+# -  grey  #848484 
+
+*/
+
+/* Global styles 
+------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   color: #f7f7f7;
+   background-color: #1f1f1f;
+   margin: 0;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Navigation */
+.navbar{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1000;
+}
+
+.navbar a{
+    color: #f7f7f7;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header{
+    background:
+     linear-gradient(
+        115deg,
+        rgba(31, 31, 31, 0.6),
+        rgba(31, 31, 31, 0.6)
+    ),
+    url("../images/background.jpg") center / cover no-repeat;
+    color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1,header h2{
+    margin: 0;
+}
+.profile-img{
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+footer{
+    background-color: #f7f7f7;
+    color: #1f1f1f;
+    text-align: center;
+    border-style: double;
+
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Work Experience
+------------------------------------*/
+
+main section:first-child{
+    color: #1f1f1f;
+    background-color: #f7f7f7;
+    border-style: double;
+    border-color: #848484;
+
+}
+
+
+
+
+/* Education
+------------------------------------*/
+
+main section:last-child{
+    color: #1f1f1f;
+    background-color: #f7f7f7;
+    border-style: double;
+    border-color: #848484;
+    
+
+}
